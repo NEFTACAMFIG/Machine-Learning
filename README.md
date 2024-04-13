@@ -1,9 +1,29 @@
-# Machine-Learning
+# Machine Learning Repository
 
-This repository put in practice some basic Machine Learning Algorithms in the `Regression_Models.py` we can find the Global Health Observatory (GHO) data repository under World Health Organization (WHO) keeps track of the health status as well as many other related factors for all countries. The datasets are made available to public for the purpose of health data analysis. The dataset "Life Expectancy" contains detailed information about this topic (life_expectancy.csv from Exercise-4).
+## Overview
 
-The exercise consist into apply a Linnear Regression and Feature Regression model with Scikit-Learn to predict the life expectancy of the dataset.
+This repository contains implementations of basic machine learning algorithms for predictive modeling. The primary focus is on regression models and decision trees/random forests applied to real-world datasets.
 
-Additionally, there is a third option after to make a "Backward Elimination", to check if the model improve its performance once that the less meaningful independent variables are eliminated.
+## Regression Models
 
-On the other hand, in the file `Decision_Tree_&_Random_Forest.py` a loan repository is used to test a Decision Tree and Random Forest algorithm to predict based on the independent varibales if a person should receive or not a loan.
+In the `Regression_Models.py` file, we apply linear regression and feature regression models using Scikit-Learn to predict life expectancy using the Global Health Observatory (GHO) dataset from the World Health Organization (WHO). The dataset "Life Expectancy" (`life_expectancy.csv`) contains detailed information about various factors affecting life expectancy.
+
+### Exercise Details:
+
+1. **Linear Regression:** 
+   - We use Scikit-Learn to implement linear regression to predict life expectancy based on independent variables.
+   
+2. **Feature Regression:**
+   - We explore feature regression techniques to identify the most significant independent variables affecting life expectancy.
+   
+3. **Backward Elimination:**
+   - We perform backward elimination to improve model performance by removing less meaningful independent variables.
+
+## Decision Trees & Random Forest
+
+In the `Decision_Tree_&_Random_Forest.py` file, we use a loan dataset to test decision tree and random forest algorithms for predicting loan approval based on independent variables.
+
+### Exercise Details:
+
+- **Decision Tree & Random Forest:**
+  - We utilize decision tree and random forest algorithms to predict whether a person should receive a loan based on independent variables such as income, credit score, and employment status.
